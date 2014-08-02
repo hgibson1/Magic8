@@ -21,6 +21,7 @@
 		2DCE9A1C198C6A72005D254C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCE99FE198C6A6E005D254C /* UIKit.framework */; };
 		2DCE9A24198C6A72005D254C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DCE9A22198C6A72005D254C /* InfoPlist.strings */; };
 		2DCE9A26198C6A72005D254C /* Magic8Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCE9A25198C6A72005D254C /* Magic8Tests.m */; };
+		2DCE9A30198C7FB2005D254C /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DCE9A2F198C7FB2005D254C /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		2DCE9A21198C6A72005D254C /* Magic8Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Magic8Tests-Info.plist"; sourceTree = "<group>"; };
 		2DCE9A23198C6A72005D254C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2DCE9A25198C6A72005D254C /* Magic8Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Magic8Tests.m; sourceTree = "<group>"; };
+		2DCE9A2F198C7FB2005D254C /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,8 @@
 				2DCE9A09198C6A6E005D254C /* AppDelegate.h */,
 				2DCE9A0A198C6A6E005D254C /* AppDelegate.m */,
 				2DCE9A0C198C6A6F005D254C /* Main.storyboard */,
+				2DCE9A06198C6A6E005D254C /* main.m */,
+				2DCE9A2F198C7FB2005D254C /* Storyboard.storyboard */,
 				2DCE9A0F198C6A6F005D254C /* ViewController.h */,
 				2DCE9A10198C6A6F005D254C /* ViewController.m */,
 				2DCE9A12198C6A6F005D254C /* Images.xcassets */,
@@ -128,7 +132,6 @@
 			children = (
 				2DCE9A02198C6A6E005D254C /* Magic8-Info.plist */,
 				2DCE9A03198C6A6E005D254C /* InfoPlist.strings */,
-				2DCE9A06198C6A6E005D254C /* main.m */,
 				2DCE9A08198C6A6E005D254C /* Magic8-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DCE9A13198C6A6F005D254C /* Images.xcassets in Resources */,
+				2DCE9A30198C7FB2005D254C /* Storyboard.storyboard in Resources */,
 				2DCE9A05198C6A6E005D254C /* InfoPlist.strings in Resources */,
 				2DCE9A0E198C6A6F005D254C /* Main.storyboard in Resources */,
 			);
