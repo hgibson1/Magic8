@@ -9,7 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-@property(nonatomic, weak) IBOutlet UITextField *QuestionLine;
-@property(nonatomic, weak) NSString *Question;
 
 @end
