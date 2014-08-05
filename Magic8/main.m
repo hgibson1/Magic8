@@ -7,7 +7,7 @@
 //  The dirty bits are abslutely necessary
 
 #import <UIKit/UIKit.h>
-
+#include <stdlib.h>
 #import "AppDelegate.h"
 
 int main(int argc, char * argv[])

@@ -7,18 +7,17 @@
 // 
 
 #import <UIKit/UIKit.h>
-
+#include <stdlib.h>
 @interface ViewController : UIViewController
 
 
-
-@property (weak, nonatomic) IBOutlet UILabel *showMeTheMoney;
-
+@property (weak, nonatomic) IBOutlet UITextView*showMeTheMoney;
+//Declares label which will display fortune
 
 
 
 - (IBAction)giveItToMe;
-//this IBAction is a touchUpInside event. That's the actual name. You can't make this shit up.
+//Declares button as IBAction. his IBAction is a touchUpInside event. That's the actual name. You can't make this shit up.
 
 
 @end
