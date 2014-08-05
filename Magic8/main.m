@@ -4,7 +4,7 @@
 //
 //  Created by Hannah Gibson on 8/1/14.
 //  Copyright (c) 2014 Hannah Gibson. All rights reserved.
-//
+//  The dirty bits are abslutely necessary
 
 #import <UIKit/UIKit.h>
 

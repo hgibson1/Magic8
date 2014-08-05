@@ -7,7 +7,7 @@
         <!--View Controller-->
         <scene sceneID="yiZ-KR-eUb">
             <objects>
-                <viewController id="Ora-Lo-4vz" sceneMemberID="viewController">
+                <viewController id="Ora-Lo-4vz" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OB7-I3-mXM"/>
                         <viewControllerLayoutGuide type="bottom" id="EYB-nV-0WD"/>
@@ -16,11 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dZK-HT-Rb1">
-                                <rect key="frame" x="78" y="60" width="160" height="196"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                            </view>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Text" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LYI-eQ-sUr">
                                 <rect key="frame" x="20" y="265" width="280" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -35,10 +30,17 @@
                                 <state key="normal" title="Give it to me straight">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="giveItToMe" destination="Ora-Lo-4vz" eventType="touchUpInside" id="mYJ-ar-efB"/>
+                                    <action selector="giveItToMe:" destination="Ora-Lo-4vz" eventType="touchUpInside" id="tUa-zc-4o4"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="showMeTheMoney" destination="LYI-eQ-sUr" id="psx-D9-ouA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uGe-dO-Kxo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

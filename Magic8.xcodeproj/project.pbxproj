@@ -112,8 +112,6 @@
 		2DCE9A00198C6A6E005D254C /* Magic8 */ = {
 			isa = PBXGroup;
 			children = (
-				2DCE9A09198C6A6E005D254C /* AppDelegate.h */,
-				2DCE9A0A198C6A6E005D254C /* AppDelegate.m */,
 				2DCE9A06198C6A6E005D254C /* main.m */,
 				2DCE9A2F198C7FB2005D254C /* Storyboard.storyboard */,
 				2DCE9A0F198C6A6F005D254C /* ViewController.h */,
@@ -127,6 +125,8 @@
 		2DCE9A01198C6A6E005D254C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2DCE9A09198C6A6E005D254C /* AppDelegate.h */,
+				2DCE9A0A198C6A6E005D254C /* AppDelegate.m */,
 				2DCE9A02198C6A6E005D254C /* Magic8-Info.plist */,
 				2DCE9A03198C6A6E005D254C /* InfoPlist.strings */,
 				2DCE9A08198C6A6E005D254C /* Magic8-Prefix.pch */,
