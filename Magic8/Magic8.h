@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Magic8 : NSObject
+@interface Magic8 : NSObject {
+    NSArray *_predictions; //creates predictions varible
+}
 
 @property(strong, nonatomic, readonly) NSArray *predictions; //defines predictions array
 
