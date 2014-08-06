@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DC152B91991AB2C00AE5D38 /* Magic8.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC152B81991AB2C00AE5D38 /* Magic8.m */; };
 		2DCE99FB198C6A6E005D254C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCE99FA198C6A6E005D254C /* Foundation.framework */; };
 		2DCE99FD198C6A6E005D254C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCE99FC198C6A6E005D254C /* CoreGraphics.framework */; };
 		2DCE99FF198C6A6E005D254C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCE99FE198C6A6E005D254C /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DC152B71991AB2C00AE5D38 /* Magic8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Magic8.h; sourceTree = "<group>"; };
+		2DC152B81991AB2C00AE5D38 /* Magic8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Magic8.m; sourceTree = "<group>"; };
 		2DCE99F7198C6A6E005D254C /* Magic8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magic8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DCE99FA198C6A6E005D254C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2DCE99FC198C6A6E005D254C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -116,6 +119,8 @@
 				2DCE9A2F198C7FB2005D254C /* Main.storyboard */,
 				2DCE9A0F198C6A6F005D254C /* ViewController.h */,
 				2DCE9A10198C6A6F005D254C /* ViewController.m */,
+				2DC152B71991AB2C00AE5D38 /* Magic8.h */,
+				2DC152B81991AB2C00AE5D38 /* Magic8.m */,
 				2DCE9A12198C6A6F005D254C /* Images.xcassets */,
 				2DCE9A01198C6A6E005D254C /* Supporting Files */,
 			);
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DC152B91991AB2C00AE5D38 /* Magic8.m in Sources */,
 				2DCE9A11198C6A6F005D254C /* ViewController.m in Sources */,
 				2DCE9A0B198C6A6E005D254C /* AppDelegate.m in Sources */,
 				2DCE9A07198C6A6E005D254C /* main.m in Sources */,
@@ -374,6 +380,7 @@
 				GCC_PREFIX_HEADER = "Magic8/Magic8-Prefix.pch";
 				INFOPLIST_FILE = "Magic8/Magic8-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -387,6 +394,7 @@
 				GCC_PREFIX_HEADER = "Magic8/Magic8-Prefix.pch";
 				INFOPLIST_FILE = "Magic8/Magic8-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

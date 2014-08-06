@@ -7,14 +7,16 @@
 // 
 
 #import <UIKit/UIKit.h>
-#include <stdlib.h>
-@interface ViewController : UIViewController
 
+@class Magic8;
+
+@interface ViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UITextView*showMeTheMoney;
 //Declares label which will display fortune
 
 
+@property (strong, nonatomic) Magic8 *magic8;
 
 - (IBAction)giveItToMe;
 //Declares button as IBAction. his IBAction is a touchUpInside event. That's the actual name. You can't make this shit up.
