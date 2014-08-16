@@ -18,7 +18,7 @@
 
 @property (strong, nonatomic) Magic8 *magic8;
 
-- (IBAction)giveItToMe;
+//- (IBAction)giveItToMe;
 //Declares button as IBAction. his IBAction is a touchUpInside event. That's the actual name. You can't make this shit up.
 
 

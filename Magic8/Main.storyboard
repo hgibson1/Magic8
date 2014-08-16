@@ -24,19 +24,6 @@
                                     <constraint firstAttribute="height" constant="568" id="gBg-3i-VcE"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zqa-Z2-HZF">
-                                <rect key="frame" x="83" y="338" width="154" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <size key="titleShadowOffset" width="0.0" height="1"/>
-                                <state key="normal" title="Give it to me straight">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="giveItToMe" destination="Ora-Lo-4vz" eventType="touchUpInside" id="OSm-rS-UYL"/>
-                                </connections>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="8" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ds9-PZ-m8w">
                                 <rect key="frame" x="20" y="175" width="280" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -51,13 +38,9 @@
                         </subviews>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="cZB-om-tE2" secondAttribute="bottom" id="9oy-2c-Q43"/>
-                            <constraint firstItem="Zqa-Z2-HZF" firstAttribute="top" secondItem="Ds9-PZ-m8w" secondAttribute="bottom" constant="73" id="H6j-6D-BRN"/>
-                            <constraint firstAttribute="trailing" secondItem="Zqa-Z2-HZF" secondAttribute="trailing" constant="83" id="Oh7-hR-7D5"/>
                             <constraint firstItem="Ds9-PZ-m8w" firstAttribute="centerY" secondItem="cZB-om-tE2" secondAttribute="centerY" constant="24" id="Xqk-Cp-sqg"/>
-                            <constraint firstItem="EYB-nV-0WD" firstAttribute="top" secondItem="Zqa-Z2-HZF" secondAttribute="bottom" constant="61" id="cqF-a7-eyu"/>
                             <constraint firstAttribute="bottom" secondItem="cZB-om-tE2" secondAttribute="bottom" id="dXJ-dN-4JU"/>
                             <constraint firstItem="Ds9-PZ-m8w" firstAttribute="centerX" secondItem="cZB-om-tE2" secondAttribute="centerX" id="s0B-YS-bPp"/>
-                            <constraint firstItem="Zqa-Z2-HZF" firstAttribute="leading" secondItem="bhL-e3-eHw" secondAttribute="leading" constant="83" id="zBg-xH-U7l"/>
                         </constraints>
                     </view>
                     <toolbarItems/>
