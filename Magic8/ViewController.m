@@ -25,7 +25,8 @@
 }
 
 -(void)viewDidAppear:(BOOL)animated{
-   
+    self.showMeTheMoney.text = @"8";
+    //Displays inital text in label as 8 for magic 8 ball
 }
 
 - (void)didReceiveMemoryWarning
@@ -40,6 +41,9 @@
     self.showMeTheMoney.text = [self.magic8 randomPrediction];
 }
 
+- (void)viewDidDisappear:(BOOL)animated {
+   
+}
 
 
 @end;

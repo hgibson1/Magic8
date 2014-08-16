@@ -13,7 +13,7 @@
 
 -(NSArray *) predictions {
     if (_predictions == nil){
-    _predictions = [[NSArray alloc]initWithObjects: @"NO", @"Quit While You're Behind", @"It's not going to happen", @"We're all just dust in the wind", @"Good luck with THAT", @"Really, Chucklefuck?", @"How should I know?", @"Die in a hole", @"You can't handle the truth", nil];
+    _predictions = [[NSArray alloc]initWithObjects: @"NO", @"Quit While You're Behind", @"It's not going to happen", @"Good luck with THAT", @"Really, Chucklefuck?", @"How should I know?", @"You can't handle the truth", @"Do you really want to know?",@"Are you crazy?", @"Don't sass me",nil];
         }
     //allocates and initializes predictions array if it doesn't exist, then returns predictions array
     return _predictions;
