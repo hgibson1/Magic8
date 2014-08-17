@@ -35,28 +35,34 @@
     // Dispose of any resources that can be recreated.
 }
 
-//- (IBAction)giveItToMe {
-//    self.showMeTheMoney.text = [self.magic8 randomPrediction]; //generates a prediction if button is pressed
-//}
+-(void)clearwindow {
+    self.showMeTheMoney.text = nil; //defines method for clearing label
+}
+
+-(void)makeprediction {
+    self.showMeTheMoney.text = [self.magic8 randomPrediction];
+    //defines method for making prediction
+}
+
 
 - (void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event {
     if (motion == UIEventSubtypeMotionShake) {
-        self.showMeTheMoney.text = nil; //clears label when shake motion is initiated
+        [self clearwindow]; //Clears label when motion initated
     }
 }
 
 - (void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event {
     if (motion == UIEventSubtypeMotionShake) {
-        self.showMeTheMoney.text = [self.magic8 randomPrediction]; //displays prediciton when shake motion ends
+        [self makeprediction]; //displays prediciton when shake motion ends
     }
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    self.showMeTheMoney.text = nil; //clears label if touch is initiated
+    [self clearwindow]; //Clears label when touch initated
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
-    self.showMeTheMoney.text = [self.magic8 randomPrediction]; //displays prediction when touch ends
+    [self makeprediction]; //displays prediction when touch ends
 }
 - (void)viewDidDisappear:(BOOL)animated {
    

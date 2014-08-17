@@ -14,12 +14,10 @@
 
 @property (weak, nonatomic) IBOutlet UITextView*showMeTheMoney;
 //Declares label which will display fortune
-
-
 @property (strong, nonatomic) Magic8 *magic8;
+//Declares varible of magic8 custom class
 
-//- (IBAction)giveItToMe;
-//Declares button as IBAction. his IBAction is a touchUpInside event. That's the actual name. You can't make this shit up.
-
+-(void)makeprediction; //Declares make prediction method
+-(void)clearwindow; //Declares clearwindow method
 
 @end
