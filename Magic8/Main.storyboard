@@ -43,6 +43,7 @@
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="animation" destination="cZB-om-tE2" id="Mha-8Z-hZo"/>
                         <outlet property="showMeTheMoney" destination="Ds9-PZ-m8w" id="GE8-IO-7Dd"/>
                     </connections>
                 </viewController>

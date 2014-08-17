@@ -10,8 +10,11 @@
 
 @class Magic8;
 
-@interface ViewController : UIViewController
+@interface ViewController :UIViewController
 
+
+@property(strong, nonatomic) IBOutlet UIImageView *animation;
+//Defines Image view controler as outlet for animation
 @property (weak, nonatomic) IBOutlet UITextView*showMeTheMoney;
 //Declares label which will display fortune
 @property (strong, nonatomic) Magic8 *magic8;
@@ -19,5 +22,6 @@
 
 -(void)makeprediction; //Declares make prediction method
 -(void)clearwindow; //Declares clearwindow method
+
 
 @end

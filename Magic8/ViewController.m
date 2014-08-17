@@ -22,6 +22,10 @@
     [super viewDidLoad];
 	self.magic8 = [[Magic8 alloc] init];
     //initializes magic8 array
+    //self.animation.animationImages = [[NSArray alloc] initWithObjects:[UIImage imageNamed:@"imagenames"], nil];
+    //self.animation.animationDuration = 1.0f;
+    //self.animation.animationRepeatCount = 1;
+    //code for animation when you make images. Need 24 (24 frames/sec)
 }
 
 -(void)viewDidAppear:(BOOL)animated{
@@ -35,13 +39,23 @@
     // Dispose of any resources that can be recreated.
 }
 
+
 -(void)clearwindow {
-    self.showMeTheMoney.text = nil; //defines method for clearing label
+    //clears text field
+    self.showMeTheMoney.text = nil; //clears label text
+    self.showMeTheMoney.alpha = 0;
+    //makes buttion transparent
 }
 
 -(void)makeprediction {
+    //defines method for making predictions
+    //[self.animation startAnimating];
+    //starts animation
     self.showMeTheMoney.text = [self.magic8 randomPrediction];
-    //defines method for making prediction
+    //makes prediction
+    [UIView animateWithDuration:2.0 animations:^{
+        self.showMeTheMoney.alpha = 1.0;}];
+    //text animation, makes slow fade in
 }
 
 
