@@ -9,12 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @class Magic8;
-
+@class MagicAnimation;
 @interface ViewController :UIViewController
 
 
 @property(strong, nonatomic) IBOutlet UIImageView *animation;
 //Defines Image view controler as outlet for animation
+@property(strong, nonatomic) MagicAnimation *magicAnimation;
 @property (weak, nonatomic) IBOutlet UITextView*showMeTheMoney;
 //Declares label which will display fortune
 @property (strong, nonatomic) Magic8 *magic8;

@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Magic8.h"
+#import "MagicAnimation.h"
 
 @interface ViewController ()
 
@@ -21,20 +22,17 @@
 {
     [super viewDidLoad];
 	self.magic8 = [[Magic8 alloc] init];
+    self.magicAnimation = [[MagicAnimation alloc] init];
+    self.animation.animationImages = [self.magicAnimation returnAnimation];
+    self.animation.animationDuration = 1.0;
+    self.animation.animationRepeatCount = 1;
     //initializes magic8 array
-    //self.animation.animationImages = [[NSArray alloc] initWithObjects:[UIImage imageNamed:@"imagenames"], nil];
-    //self.animation.animationDuration = 1.0f;
-    //self.animation.animationRepeatCount = 1;
-    //code for animation when you make images. Need 24 (24 frames/sec)
 }
 
--(void)viewDidAppear:(BOOL)animated{
-    self.showMeTheMoney.text = @"8";
-    //Displays inital text in label as 8 for magic 8 ball
+-(void)viewDidAppear:(BOOL)animated {
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }

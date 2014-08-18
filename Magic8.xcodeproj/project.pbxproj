@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D10A5F919A26734003A0EE2 /* MagicAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D10A5F819A26734003A0EE2 /* MagicAnimation.m */; };
 		2D469552199FAA6E00BFDA0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D469551199FAA6E00BFDA0C /* Images.xcassets */; };
 		2DC152B91991AB2C00AE5D38 /* Magic8.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC152B81991AB2C00AE5D38 /* Magic8.m */; };
 		2DCE99FB198C6A6E005D254C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCE99FA198C6A6E005D254C /* Foundation.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D10A5F719A26734003A0EE2 /* MagicAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicAnimation.h; sourceTree = "<group>"; };
+		2D10A5F819A26734003A0EE2 /* MagicAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicAnimation.m; sourceTree = "<group>"; };
 		2D469551199FAA6E00BFDA0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2DC152B71991AB2C00AE5D38 /* Magic8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Magic8.h; sourceTree = "<group>"; };
 		2DC152B81991AB2C00AE5D38 /* Magic8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Magic8.m; sourceTree = "<group>"; };
@@ -119,6 +122,8 @@
 				2DCE9A2F198C7FB2005D254C /* Main.storyboard */,
 				2DCE9A0F198C6A6F005D254C /* ViewController.h */,
 				2DCE9A10198C6A6F005D254C /* ViewController.m */,
+				2D10A5F719A26734003A0EE2 /* MagicAnimation.h */,
+				2D10A5F819A26734003A0EE2 /* MagicAnimation.m */,
 				2DC152B71991AB2C00AE5D38 /* Magic8.h */,
 				2DC152B81991AB2C00AE5D38 /* Magic8.m */,
 				2D469551199FAA6E00BFDA0C /* Images.xcassets */,
@@ -257,6 +262,7 @@
 				2DC152B91991AB2C00AE5D38 /* Magic8.m in Sources */,
 				2DCE9A11198C6A6F005D254C /* ViewController.m in Sources */,
 				2DCE9A0B198C6A6E005D254C /* AppDelegate.m in Sources */,
+				2D10A5F919A26734003A0EE2 /* MagicAnimation.m in Sources */,
 				2DCE9A07198C6A6E005D254C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
